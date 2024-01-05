@@ -21,6 +21,7 @@ const App = ({ Component, pageProps }) => {
         {/*====== Title ======*/}
         <title>Landscaping - Example</title>
       </Head>
+      {loading && <Preloader />}
       {!loading && <Component {...pageProps} />}
     </Fragment>
   );
