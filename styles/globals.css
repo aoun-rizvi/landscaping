@@ -1,5 +1,24 @@
 /* @import "slick-carousel/slick/slick.css"; */
 
+
+/*====== Google Fonts ======*/
+@import "@/public/assets/fonts/google/montserrat.css";
+/*====== Flaticon css ======*/
+@import "@/public/assets/fonts/flaticon/flaticon_gadden.css";
+/*====== Bootstrap css ======*/
+@import "@/public/assets/vendor/bootstrap/css/bootstrap.min.css";
+/*====== magnific-popup css ======*/
+@import "@/public/assets/vendor/magnific-popup/dist/magnific-popup.css";
+/*====== Slick-popup css ======*/
+@import "@/public/assets/vendor/slick/slick.css";
+/*====== Animate css ======*/
+@import "@/public/assets/vendor/animate.css";
+/*====== Default css ======*/
+@import "@/public/assets/css/default.css";
+/*====== Style css ======*/
+@import "@/public/assets/css/style.css";
+
+
 .c-pointer {
   cursor: pointer;
 }
