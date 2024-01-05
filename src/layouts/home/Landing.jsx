@@ -25,48 +25,42 @@ const Landing = () => {
               <div className="col-xl-6 col-lg-12">
               {/*=== Hero Content ===*/}
               <div className="hero-content">
-                  <h1 className="wow fadeInUp" data-wow-delay=".4s">
+                  <h1 className="">
                   Green Environments Make You Happy and provide Oxygen
                   </h1>
-                  <p className="wow fadeInDown" data-wow-delay=".6s">
+                  <p className="" >
                   We Provide Beautiful Gardening &amp; Landscaping
                   </p>
-                  <div
-                  className="hero-button mb-30 wow fadeInUp"
-                  data-wow-delay=".7s"
-                  >
-                  <Link legacyBehavior href="/about">
-                      <a className="main-btn golden-btn mb-10">Explore More</a>
-                  </Link>
-                  <Link legacyBehavior href="/index">
-                      <a className="main-btn filled-btn mb-10">How It Work</a>
-                  </Link>
+                  <div className="hero-button mb-30">
+                    <Link legacyBehavior href="/about">
+                        <a className="main-btn golden-btn mb-10">Explore More</a>
+                    </Link>
+                    <Link legacyBehavior href="/index">
+                        <a className="main-btn filled-btn mb-10">How It Work</a>
+                    </Link>
                   </div>
               </div>
               </div>
               <div className="col-xl-6 col-lg-12">
               {/*=== Hero Image Box ===*/}
-              <div
-                  className="hero-image-box d-xl-block d-none wow fadeInRight"
-                  data-wow-delay=".75s"
-              >
-                  <img
+              <div className="hero-image-box d-xl-block d-none">
+                <img
                   src="assets/images/hero/hero-three_one.jpg"
                   alt="Hero Image"
-                  />
-                  <div className="shape hero-svg">
+                />
+                <div className="shape hero-svg">
                   <svg
-                      width={237}
-                      height={569}
-                      viewBox="0 0 237 569"
-                      fill="none"
+                    width={237}
+                    height={569}
+                    viewBox="0 0 237 569"
+                    fill="none"
                   >
-                      <path
+                    <path
                       d="M0.552583 568.307L1.99989 0.226473C1.99989 0.226473 237.025 -9.37181 236.276 284.731C235.527 578.834 0.552583 568.307 0.552583 568.307Z"
                       fill="#F1D2A9"
-                      />
+                    />
                   </svg>
-                  </div>
+                </div>
               </div>
               </div>
           </div>

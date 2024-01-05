@@ -1,14 +1,7 @@
-import Preloader from "@/src/layouts/Preloader";
 import Head from "next/head";
-import { Fragment, useEffect, useState } from "react";
+import { Fragment } from "react";
 import "/styles/globals.css";
 const App = ({ Component, pageProps }) => {
-  const [loading, setLoading] = useState(true);
-  useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 1000);
-  }, []);
 
   return (
     <Fragment>
@@ -21,8 +14,7 @@ const App = ({ Component, pageProps }) => {
         {/*====== Title ======*/}
         <title>Landscaping - Example</title>
       </Head>
-      {loading && <Preloader />}
-      {!loading && <Component {...pageProps} />}
+      <Component {...pageProps} />
     </Fragment>
   );
 };
