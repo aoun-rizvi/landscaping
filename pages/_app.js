@@ -20,14 +20,7 @@ const App = ({ Component, pageProps }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         {/*====== Title ======*/}
         <title>Landscaping - Example</title>
-        {/*====== Favicon Icon ======*/}
-        <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/png" />
-        {/*====== All Min css ======*/}
-        <link rel="stylesheet" href="assets/fonts/fontawesome/css/all.min.css" />
-        {/*====== Jquery UI css ======*/}
-        <link rel="stylesheet" href="assets/vendor/jquery-ui/jquery-ui.min.css" />
       </Head>
-      {loading && <Preloader />}
       {!loading && <Component {...pageProps} />}
     </Fragment>
   );
