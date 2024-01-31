@@ -6,7 +6,7 @@ const Category = () => {
         <div className="row">
           <div className="col-lg-3 col-md-6 col-sm-12">
             {/*====== Category Item ======*/}
-            <div className="single-category-item mb-40 wow fadeInLeft">
+            <div className="single-category-item mb-40">
               <div className="inner-category">
                 <div className="text">
                   <h3 className="title">Gardening</h3>
@@ -19,7 +19,7 @@ const Category = () => {
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12">
             {/*====== Category Item ======*/}
-            <div className="single-category-item mb-40 wow fadeInUp">
+            <div className="single-category-item mb-40">
               <div className="inner-category">
                 <div className="text">
                   <h3 className="title">Landscape</h3>
@@ -32,7 +32,7 @@ const Category = () => {
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12">
             {/*====== Category Item ======*/}
-            <div className="single-category-item mb-40 wow fadeInDown">
+            <div className="single-category-item mb-40">
               <div className="inner-category">
                 <div className="text">
                   <h3 className="title">Garden Overhauls</h3>
@@ -45,7 +45,7 @@ const Category = () => {
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12">
             {/*====== Category Item ======*/}
-            <div className="single-category-item mb-40 wow fadeInRight">
+            <div className="single-category-item mb-40">
               <div className="inner-category">
                 <div className="text">
                   <h3 className="title">Nature Green</h3>
