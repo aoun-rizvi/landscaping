@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from 'next/image';
 
 const Team = () => {
   return (
@@ -20,7 +21,11 @@ const Team = () => {
             {/*====== Single Team Item ======*/}
             <div className="single-team-item-two mb-40">
               <div className="member-img">
-                <img src="assets/images/team/team-10.jpg" alt="Team Image" />
+                <Image
+                  alt="Team Image 1" src={"/assets/images/team/team-10.jpg"}
+                  style={{ width: '100%', height: 'auto' }}
+                  width={500} height={500}
+                />
                 {/* <div className="social-box">
                   <ul className="social-link">
                     <li>
@@ -61,7 +66,11 @@ const Team = () => {
             {/*====== Single Team Item ======*/}
             <div className="single-team-item-two mb-40">
               <div className="member-img">
-                <img src="assets/images/team/team-11.jpg" alt="Team Image" />
+                <Image
+                  alt="Team Image 2" src={"/assets/images/team/team-11.jpg"}
+                  style={{ width: '100%', height: 'auto' }}
+                  width={500} height={500}
+                />
                 {/* <div className="social-box">
                   <ul className="social-link">
                     <li>
@@ -102,7 +111,11 @@ const Team = () => {
             {/*====== Single Team Item ======*/}
             <div className="single-team-item-two mb-40">
               <div className="member-img">
-                <img src="assets/images/team/team-12.jpg" alt="Team Image" />
+                <Image
+                  alt="Team Image 3" src={"/assets/images/team/team-12.jpg"}
+                  style={{ width: '100%', height: 'auto' }}
+                  width={500} height={500}
+                />
                 {/* <div className="social-box">
                   <ul className="social-link">
                     <li>

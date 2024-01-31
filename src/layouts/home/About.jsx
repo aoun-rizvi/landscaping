@@ -12,7 +12,7 @@ const About = () => {
                 {/*=== About Image Box ===*/}
                 <div className="about-two_image-box">
                   <Image
-                    alt="Leaf 1" src={"/assets/images/about/about-6.png"}
+                    alt="About Gardening" src={"/assets/images/about/about-6.png"}
                     style={{ width: '100%', height: 'auto' }}
                     width={500} height={500}
                   />
