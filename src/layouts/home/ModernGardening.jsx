@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from 'next/image';
 
 const ModernGardening = () => {
   return (
@@ -8,9 +9,10 @@ const ModernGardening = () => {
           <div className="col-lg-6">
             {/*====== Features Image Box ======*/}
             <div className="features-image-box mb-50">
-              <img
-                src="assets/images/features/features-10.png"
-                alt="Features Image"
+              <Image
+                alt="Features Image" src={"/assets/images/features/features-10.png"}
+                style={{ width: '100%', height: 'auto' }}
+                width={500} height={500}
               />
             </div>
           </div>
