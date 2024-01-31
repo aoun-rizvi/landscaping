@@ -6,10 +6,10 @@ const Service = () => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-10">
-            <div className="section-title text-center mb-100 wow fadeInDown">
+            <div className="section-title text-center mb-100">
               <span className="sub-title">
                 <i className="flaticon-plant" />
-                What We Do
+                Services
               </span>
               <h2>We Care Your Garden &amp; Landscape</h2>
             </div>
@@ -17,10 +17,7 @@ const Service = () => {
         </div>
         <div className="row justify-content-center">
           <div className="col-xl-3 col-lg-4 col-md-6">
-            <div
-              className="single-service-item-two mb-80 wow fadeInDown"
-              data-wow-delay=".2s"
-            >
+            <div className="single-service-item-two mb-80">
               <div className="icon">
                 <i className="flaticon-scissors" />
               </div>
@@ -40,10 +37,7 @@ const Service = () => {
             </div>
           </div>
           <div className="col-xl-3 col-lg-4 col-md-6">
-            <div
-              className="single-service-item-two mb-80 wow fadeInUp"
-              data-wow-delay=".25s"
-            >
+            <div className="single-service-item-two mb-80">
               <div className="icon">
                 <i className="flaticon-watering" />
               </div>
@@ -63,10 +57,7 @@ const Service = () => {
             </div>
           </div>
           <div className="col-xl-3 col-lg-4 col-md-6">
-            <div
-              className="single-service-item-two mb-80 wow fadeInDown"
-              data-wow-delay=".3s"
-            >
+            <div className="single-service-item-two mb-80">
               <div className="icon">
                 <i className="flaticon-yard" />
               </div>
@@ -86,10 +77,7 @@ const Service = () => {
             </div>
           </div>
           <div className="col-xl-3 col-lg-4 col-md-6">
-            <div
-              className="single-service-item-two mb-80 wow fadeInUp"
-              data-wow-delay=".35s"
-            >
+            <div className="single-service-item-two mb-80">
               <div className="icon">
                 <i className="flaticon-growing" />
               </div>
