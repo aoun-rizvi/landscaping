@@ -21,6 +21,7 @@ const Landing = () => {
               alt="Shape 2" src={"/assets/images/hero/shape-2.png"}
               style={{ width: '100%', height: 'auto' }}
               width={500} height={500}
+              loading="eager"
             />
         </span>
         </div>
