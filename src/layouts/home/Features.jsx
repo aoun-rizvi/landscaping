@@ -1,4 +1,5 @@
-import dynamic from 'next/dynamic'; 
+import Image from 'next/image';
+import dynamic from 'next/dynamic';
 const Counter = dynamic(() => import('@/src/components/Counter'), {
   ssr: false,
 });
@@ -8,21 +9,33 @@ const Features = () => {
     <section className="features-section-two p-r z-1  col-12">
       {/*=== Features Wrapper ===*/}
       <div className="features-wrapper-two main-bg">
-        {/* <div className="shape shape-one">
+        <div className="shape shape-one d-none d-md-block">
           <span>
-            <img src="assets/images/shape/leaf-5.png" alt="Leaf" />
+            <Image
+              alt="Leaf 1" src={"/assets/images/shape/leaf-5.png"}
+              style={{ width: '100%', height: 'auto' }}
+              width={500} height={500}
+            />
           </span>
         </div>
         <div className="shape shape-two">
           <span>
-            <img src="assets/images/shape/leaf-5.png" alt="Leaf" />
+            <Image
+              alt="Leaf 2" src={"/assets/images/shape/leaf-5.png"}
+              style={{ width: '100%', height: 'auto' }}
+              width={50} height={50}
+            />
           </span>
         </div>
-        <div className="shape shape-three">
+        <div className="shape shape-three d-none d-md-block">
           <span>
-            <img src="assets/images/shape/leaf-5.png" alt="Leaf" />
+            <Image
+              alt="Leaf 3" src={"/assets/images/shape/leaf-5.png"}
+              style={{ width: '100%', height: 'auto' }}
+              width={500} height={500}
+            />
           </span>
-        </div> */}
+        </div>
         <div className="features-area pb-30">
           <div className="row justify-content-center">
             <div className="col-lg-4 col-md-6 col-sm-6">

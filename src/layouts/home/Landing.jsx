@@ -9,7 +9,7 @@ const Landing = () => {
         <div className="shape shape-one animate-float-y">
         <span>
             <Image
-              alt="" src={"/assets/images/hero/shape-1.png"}
+              alt="Shape 1" src={"/assets/images/hero/shape-1.png"}
               style={{ width: '100%', height: 'auto' }}
               width={500} height={500}
             />
@@ -18,7 +18,7 @@ const Landing = () => {
         <div className="shape shape-two animate-float-x">
         <span>
             <Image
-              alt="" src={"/assets/images/hero/shape-2.png"}
+              alt="Shape 2" src={"/assets/images/hero/shape-2.png"}
               style={{ width: '100%', height: 'auto' }}
               width={500} height={500}
             />
@@ -27,7 +27,7 @@ const Landing = () => {
         <div className="shape shape-three animate-float-x">
         <span>
             <Image
-              alt="" src={"/assets/images/hero/shape-3.png"}
+              alt="Shape 3" src={"/assets/images/hero/shape-3.png"}
               style={{ width: '100%', height: 'auto' }}
               width={500} height={500}
             />
