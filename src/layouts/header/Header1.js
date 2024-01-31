@@ -1,9 +1,11 @@
 import Link from "next/link";
+import Image from 'next/image';
 import { Fragment, useState } from "react";
 import SearchModal from "../SearchModal";
 import Sidebar from "../Sidebar";
 import Menu from "./Menu";
 import MobileMenu from "./MobileMenu";
+
 const Header1 = () => {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
@@ -65,11 +67,15 @@ const Header1 = () => {
             <div className="primary-menu">
               {/*====== Site Branding ======*/}
               <div className="site-branding">
-                <Link legacyBehavior href="/index">
+                <Link legacyBehavior href="/">
                   <a className="brand-logo">
-                    <img
-                      src="assets/images/logo/logo-black.png"
-                      alt="Site Logo"
+                    <Image
+                      alt="Site Logo" src={"/assets/images/logo/logo-black.png"}
+                      style={{ width: '100%', height: 'auto' }}
+                      width={500} height={500}
+                      loading="eager"
+                      quality={100}
+                      priority={true}
                     />
                   </a>
                 </Link>
@@ -78,11 +84,15 @@ const Header1 = () => {
               <div className="nav-menu">
                 {/*====== Site Branding ======*/}
                 <div className="mobile-logo mb-30 d-block d-xl-none">
-                  <Link legacyBehavior href="/index">
+                  <Link legacyBehavior href="/">
                     <a className="brand-logo">
-                      <img
-                        src="assets/images/logo/logo-black.png"
-                        alt="Site Logo"
+                      <Image
+                        alt="Site Logo Nav" src={"/assets/images/logo/logo-black.png"}
+                        style={{ width: '100%', height: 'auto' }}
+                        width={500} height={500}
+                        loading="eager"
+                        quality={100}
+                        priority={true}
                       />
                     </a>
                   </Link>
@@ -129,7 +139,14 @@ const Header1 = () => {
                   data-target="#sidebar-modal"
                   onClick={handleShow}
                 >
-                  <img src="assets/images/bar.png" alt="Image" />
+                  <Image
+                    alt="Bar Menu" src={"/assets/images/bar.png"}
+                    style={{ width: '100%', height: 'auto' }}
+                    width={500} height={500}
+                    loading="eager"
+                    quality={100}
+                    priority={true}
+                  />
                 </div>
                 <div className="navbar-toggler">
                   <span />

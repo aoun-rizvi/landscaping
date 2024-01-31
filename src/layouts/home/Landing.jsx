@@ -61,7 +61,7 @@ const Landing = () => {
               <div className="hero-image-box d-xl-block d-none">
                 <Image
                   alt="Hero Image" src={"/assets/images/hero/hero-three_one.jpg"}
-                  style={{ width: '100%', height: 'auto', }}
+                  style={{ width: '100%', height: 'auto' }}
                   width={500} height={550}
                   loading="eager"
                   quality={100}
