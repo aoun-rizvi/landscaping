@@ -7,7 +7,7 @@ const Features = () => {
   return (
     <section className="features-section-two p-r z-1  col-12">
       {/*=== Features Wrapper ===*/}
-      <div className="features-wrapper-two main-bg wow fadeInDown">
+      <div className="features-wrapper-two main-bg">
         {/* <div className="shape shape-one">
           <span>
             <img src="assets/images/shape/leaf-5.png" alt="Leaf" />
@@ -27,7 +27,7 @@ const Features = () => {
           <div className="row justify-content-center">
             <div className="col-lg-4 col-md-6 col-sm-6">
               {/*=== Features Item ===*/}
-              <div className="single-features-item-two mb-40 wow fadeInUp">
+              <div className="single-features-item-two mb-40">
                 <div className="text">
                   <div className="icon">
                     <i className="fl-icon flaticon-watering-plants" />
@@ -41,7 +41,7 @@ const Features = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-6">
               {/*=== Features Item ===*/}
-              <div className="single-features-item-two mb-40 wow fadeInDown">
+              <div className="single-features-item-two mb-40">
                 <div className="text">
                   <div className="icon">
                     <i className="fl-icon flaticon-watering-plants" />
@@ -55,7 +55,7 @@ const Features = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-6">
               {/*=== Features Item ===*/}
-              <div className="single-features-item-two mb-40 wow fadeInUp">
+              <div className="single-features-item-two mb-40">
                 <div className="text">
                   <div className="icon">
                     <i className="fl-icon flaticon-watering-plants" />
@@ -74,7 +74,7 @@ const Features = () => {
           <div className="row pt-70">
             <div className="col-lg-3 col-sm-6">
               {/*=== Counter Item ===*/}
-              <div className="single-counter-item-two mb-30 wow fadeInDown">
+              <div className="single-counter-item-two mb-30">
                 <div className="inner-counter">
                   <div className="icon">
                     <i className="fas fa-check" />
@@ -88,7 +88,7 @@ const Features = () => {
             </div>
             <div className="col-lg-3 col-sm-6">
               {/*=== Counter Item ===*/}
-              <div className="single-counter-item-two mb-30 wow fadeInUp">
+              <div className="single-counter-item-two mb-30">
                 <div className="inner-counter">
                   <div className="icon">
                     <i className="fas fa-check" />
@@ -102,7 +102,7 @@ const Features = () => {
             </div>
             <div className="col-lg-3 col-sm-6">
               {/*=== Counter Item ===*/}
-              <div className="single-counter-item-two mb-30 wow fadeInDown">
+              <div className="single-counter-item-two mb-30">
                 <div className="inner-counter">
                   <div className="icon">
                     <i className="fas fa-check" />
@@ -116,7 +116,7 @@ const Features = () => {
             </div>
             <div className="col-lg-3 col-sm-6">
               {/*=== Counter Item ===*/}
-              <div className="single-counter-item-two mb-30 wow fadeInUp">
+              <div className="single-counter-item-two mb-30">
                 <div className="inner-counter">
                   <div className="icon">
                     <i className="fas fa-check" />
