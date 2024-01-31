@@ -1,28 +1,43 @@
 import Link from "next/link";
+import Image from 'next/image';
+
 const Footer3 = () => {
   return (
     <footer className="footer-area footer-wave pt-100 p-r z-1">
       <div className="wave-shapes">
-        <img
-          src="assets/images/shape/wave-shape-1.png"
+        <img className="w-shape one" src="assets/images/shape/wave-shape-1.png" alt="wave shape back"/>
+        {/* <Image
+          alt="Wave Shape Back" src={"/assets/images/shape/wave-shape-1.png"}
+          style={{ width: '100%', height: 'auto' }}
+          width={500} height={500}
           className="w-shape one"
-          alt="wave shape"
-        />
-        <img
-          src="assets/images/shape/wave-shape-2.png"
+        /> */}
+        <img className="w-shape two" src="assets/images/shape/wave-shape-2.png" alt="wave shape front"/>
+        {/* <Image
+          alt="Wave Shape Front" src={"/assets/images/shape/wave-shape-2.png"}
+          style={{ width: '100%', height: 'auto' }}
+          width={500} height={500}
+          unoptimized={true}
           className="w-shape two"
-          alt="wave shape"
-        />
+        /> */}
       </div>
       <div className="footer-wrapper text-white main-bg p-r z-1">
         <div className="shape shape-one animate-float-y d-none d-md-block">
           <span>
-            <img src="assets/images/shape/tree.png" alt="Tree Image" />
+            <Image
+              alt="Tree Image Left" src={"/assets/images/shape/tree.png"}
+              style={{ width: '100%', height: 'auto' }}
+              width={500} height={500}
+            />
           </span>
         </div>
         <div className="shape shape-two animate-float-y d-none d-sm-block">
           <span>
-            <img src="assets/images/shape/tree2.png" alt="Tree Image" />
+            <Image
+              alt="Tree Image Right" src={"/assets/images/shape/tree2.png"}
+              style={{ width: '100%', height: 'auto' }}
+              width={500} height={500}
+            />
           </span>
         </div>
         <div className="container">
@@ -36,9 +51,10 @@ const Footer3 = () => {
                     <div className="footer-logo mb-25">
                       <Link legacyBehavior href="/index">
                         <a>
-                          <img
-                            src="assets/images/logo/logo-white.png"
-                            alt="Logo"
+                          <Image
+                            alt="Site Logo Footer" src={"/assets/images/logo/logo-white.png"}
+                            style={{ width: '100%', height: 'auto' }}
+                            width={500} height={500}
                           />
                         </a>
                       </Link>
