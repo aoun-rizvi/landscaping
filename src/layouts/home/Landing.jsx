@@ -22,6 +22,7 @@ const Landing = () => {
               style={{ width: '100%', height: 'auto' }}
               width={500} height={500}
               loading="eager"
+              quality={50}
             />
         </span>
         </div>
