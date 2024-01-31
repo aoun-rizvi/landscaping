@@ -15,12 +15,12 @@ const Footer3 = () => {
         />
       </div>
       <div className="footer-wrapper text-white main-bg p-r z-1">
-        <div className="shape shape-one animate-float-y">
+        <div className="shape shape-one animate-float-y d-none d-md-block">
           <span>
             <img src="assets/images/shape/tree.png" alt="Tree Image" />
           </span>
         </div>
-        <div className="shape shape-two animate-float-y">
+        <div className="shape shape-two animate-float-y d-none d-sm-block">
           <span>
             <img src="assets/images/shape/tree2.png" alt="Tree Image" />
           </span>
@@ -29,8 +29,8 @@ const Footer3 = () => {
           {/*====== Footer Widget ======*/}
           <div className="footer-widget-area pt-55 pb-40 p-r z-1">
             <div className="row">
-              <div className="col-lg-4 col-md-6 col-sm-12">
-                {/*====== Footer Widget ======*/}
+                {/*====== First ======*/}
+              <div className="col-md-6 col-sm-12">
                 <div className="footer-widget footer-about-widget mb-40 pr-lg-70">
                   <div className="widget-content">
                     <div className="footer-logo mb-25">
@@ -55,8 +55,8 @@ const Footer3 = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-6 col-sm-12">
-                {/*====== Footer Widget ======*/}
+                {/*====== Get In Touch ======*/}
+              <div className="col-md-6 col-sm-12">
                 <div className="footer-widget contact-info-widget mb-40">
                   <h4 className="widget-title">Get In Touch</h4>
                   <div className="widget-content">
@@ -72,8 +72,8 @@ const Footer3 = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-2 col-md-6 col-sm-12">
-                {/*====== Footer Widget ======*/}
+              {/*====== Quick Link ======*/}
+              {/* <div className="col-lg-2 col-md-6 col-sm-12">
                 <div className="footer-widget footer-nav-widget mb-40">
                   <h4 className="widget-title">Quick Link</h4>
                   <div className="widget-content">
@@ -93,9 +93,9 @@ const Footer3 = () => {
                     </ul>
                   </div>
                 </div>
-              </div>
-              <div className="col-lg-3 col-md-6 col-sm-6">
-                {/*====== Footer Widget ======*/}
+              </div> */}
+              {/*====== Gallery ======*/}
+              {/* <div className="col-lg-3 col-md-6 col-sm-6">
                 <div className="footer-widget footer-gallery-widget float-lg-right mb-40">
                   <h4 className="widget-title">Gallery</h4>
                   <div className="widget-content">
@@ -169,7 +169,7 @@ const Footer3 = () => {
                     </ul>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           {/*=== Copyright Area ===*/}
@@ -178,7 +178,7 @@ const Footer3 = () => {
               <div className="col-lg-6">
                 {/*====== Copyright Text ======*/}
                 <div className="copyright-text">
-                  <p>Copy© 2023 Gadden. All Rights Reserved.</p>
+                  <p>Copy© 2024 Gadden. All Rights Reserved.</p>
                 </div>
               </div>
               <div className="col-lg-6">
@@ -191,9 +191,9 @@ const Footer3 = () => {
                     <li>
                       <a href="#">Faqs</a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a href="#">Food Menu</a>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
