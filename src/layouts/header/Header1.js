@@ -24,8 +24,7 @@ const Header1 = () => {
                 {/*====== Top Left ======*/}
                 <div className="top-left">
                   <span>
-                    Welcome to Gadden a modern Gardening &amp; Landscape Contact
-                    Us
+                    Welcome to Gadden a modern Gardening &amp; Landscape - Contact Us
                   </span>
                 </div>
               </div>
