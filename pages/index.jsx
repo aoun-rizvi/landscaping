@@ -21,8 +21,8 @@ const Index = () => {
       {/* <Project /> */}
       <Team />
       <ModernGardening />
-      <Testimonial />
-      <Blog />
+      {/* <Testimonial /> */}
+      {/* <Blog /> */}
     </Layout>
   );
 };
