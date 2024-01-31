@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Service = () => {
   return (
-    <section className="service-section pt-100 pb-20">
+    <section className="service-section pt-100 pb-10">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-10">
