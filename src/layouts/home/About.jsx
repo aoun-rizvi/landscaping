@@ -4,25 +4,25 @@ const About = () => {
     <section className="about-section">
       <div className="container-fluid">
         {/*=== About Wrapper ===*/}
-        <div className="about-wrapper gray-bg wow fadeInUp">
+        <div className="about-wrapper gray-bg">
           <div className="container">
             <div className="row align-items-xl-center">
               <div className="col-xl-5 col-lg-12">
                 {/*=== About Image Box ===*/}
-                <div className="about-two_image-box wow fadeInLeft">
+                <div className="about-two_image-box">
                   <img src="assets/images/about/about-6.png" alt />
                 </div>
               </div>
               <div className="col-xl-7 col-lg-12">
                 {/*=== About Content Box ===*/}
-                <div className="about-three_content-box pl-lg-70 wow fadeInRight">
+                <div className="about-three_content-box pl-lg-70">
                   {/*=== Section Title ===*/}
-                  <div className="section-title mb-25 wow fadeInUp">
+                  <div className="section-title mb-25">
                     <span className="sub-title">
                       <i className="flaticon-plant" />
                       About Gardening
                     </span>
-                    <h2>Perfect Gardening The Result Of Nature</h2>
+                    <h2>Gardening - The Result Of Nature</h2>
                   </div>
                   <p className="mb-40 wow fadeInDown">
                     Sed ut perspiciatis unde omnis iste natus voluptatem
@@ -32,7 +32,7 @@ const About = () => {
                   <div className="row">
                     <div className="col-sm-6">
                       {/*=== Fancy About Item ===*/}
-                      <div className="fancy-about-item mb-40 wow fadeInUp">
+                      <div className="fancy-about-item mb-40">
                         <div className="text">
                           <h5>
                             <i className="far fa-angle-double-right" />
@@ -47,11 +47,11 @@ const About = () => {
                     </div>
                     <div className="col-sm-6">
                       {/*=== Fancy About Item ===*/}
-                      <div className="fancy-about-item mb-40 wow fadeInDown">
+                      <div className="fancy-about-item mb-40">
                         <div className="text">
                           <h5>
                             <i className="far fa-angle-double-right" />
-                            Urbans
+                            Watering
                           </h5>
                           <p>
                             Ut enim minima veniam nostrum exercitationem
@@ -62,7 +62,7 @@ const About = () => {
                     </div>
                     <div className="col-sm-6">
                       {/*=== Fancy About Item ===*/}
-                      <div className="fancy-about-item mb-40 wow fadeInUp">
+                      <div className="fancy-about-item mb-40">
                         <div className="text">
                           <h5>
                             <i className="far fa-angle-double-right" />
@@ -77,11 +77,11 @@ const About = () => {
                     </div>
                     <div className="col-sm-6">
                       {/*=== Fancy About Item ===*/}
-                      <div className="fancy-about-item mb-40 wow fadeInUp">
+                      <div className="fancy-about-item mb-40">
                         <div className="text">
                           <h5>
                             <i className="far fa-angle-double-right" />
-                            Event &amp; Programs
+                            Events
                           </h5>
                           <p>
                             Ut enim minima veniam nostrum exercitationem
