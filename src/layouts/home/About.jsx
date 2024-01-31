@@ -1,3 +1,4 @@
+import Image from 'next/image';
 
 const About = () => {
   return (
@@ -10,7 +11,11 @@ const About = () => {
               <div className="col-xl-5 col-lg-12">
                 {/*=== About Image Box ===*/}
                 <div className="about-two_image-box">
-                  <img src="assets/images/about/about-6.png" alt />
+                  <Image
+                    alt="Leaf 1" src={"/assets/images/about/about-6.png"}
+                    style={{ width: '100%', height: 'auto' }}
+                    width={500} height={500}
+                  />
                 </div>
               </div>
               <div className="col-xl-7 col-lg-12">
