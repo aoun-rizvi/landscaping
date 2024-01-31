@@ -11,7 +11,7 @@ const Team = () => {
                 <i className="flaticon-plant" />
                 Team Member
               </span>
-              <h2>Meet Our Expert Gardener</h2>
+              <h2>Meet Our Expert Gardeners</h2>
             </div>
           </div>
         </div>
@@ -21,7 +21,7 @@ const Team = () => {
             <div className="single-team-item-two mb-40">
               <div className="member-img">
                 <img src="assets/images/team/team-10.jpg" alt="Team Image" />
-                <div className="social-box">
+                {/* <div className="social-box">
                   <ul className="social-link">
                     <li>
                       <a href="#">
@@ -44,13 +44,14 @@ const Team = () => {
                       </a>
                     </li>
                   </ul>
-                </div>
+                </div> */}
               </div>
               <div className="member-info text-center">
                 <h4 className="title">
-                  <Link legacyBehavior href="/single-team">
+                  <p>Joan Smith</p>
+                  {/* <Link legacyBehavior href="/single-team">
                     <a>Joan Smith</a>
-                  </Link>
+                  </Link> */}
                 </h4>
                 <p>Senior Gardener</p>
               </div>
@@ -61,7 +62,7 @@ const Team = () => {
             <div className="single-team-item-two mb-40">
               <div className="member-img">
                 <img src="assets/images/team/team-11.jpg" alt="Team Image" />
-                <div className="social-box">
+                {/* <div className="social-box">
                   <ul className="social-link">
                     <li>
                       <a href="#">
@@ -84,13 +85,14 @@ const Team = () => {
                       </a>
                     </li>
                   </ul>
-                </div>
+                </div> */}
               </div>
               <div className="member-info text-center">
                 <h4 className="title">
-                  <Link legacyBehavior href="/single-team">
+                  <p>John Smith</p>
+                  {/* <Link legacyBehavior href="/single-team">
                     <a>John Smith</a>
-                  </Link>
+                  </Link> */}
                 </h4>
                 <p>Junior Gardener</p>
               </div>
@@ -101,7 +103,7 @@ const Team = () => {
             <div className="single-team-item-two mb-40">
               <div className="member-img">
                 <img src="assets/images/team/team-12.jpg" alt="Team Image" />
-                <div className="social-box">
+                {/* <div className="social-box">
                   <ul className="social-link">
                     <li>
                       <a href="#">
@@ -124,13 +126,14 @@ const Team = () => {
                       </a>
                     </li>
                   </ul>
-                </div>
+                </div> */}
               </div>
               <div className="member-info text-center">
                 <h4 className="title">
-                  <Link legacyBehavior href="/single-team">
+                  <p>Joan Smith</p>
+                  {/* <Link legacyBehavior href="/single-team">
                     <a>Joan Smith</a>
-                  </Link>
+                  </Link> */}
                 </h4>
                 <p>Senior Gardener</p>
               </div>
