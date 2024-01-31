@@ -31,7 +31,7 @@ const Footer3 = () => {
             <div className="row">
               <div className="col-lg-4 col-md-6 col-sm-12">
                 {/*====== Footer Widget ======*/}
-                <div className="footer-widget footer-about-widget mb-40 pr-lg-70 wow fadeInDown">
+                <div className="footer-widget footer-about-widget mb-40 pr-lg-70">
                   <div className="widget-content">
                     <div className="footer-logo mb-25">
                       <Link legacyBehavior href="/index">
@@ -57,7 +57,7 @@ const Footer3 = () => {
               </div>
               <div className="col-lg-3 col-md-6 col-sm-12">
                 {/*====== Footer Widget ======*/}
-                <div className="footer-widget contact-info-widget mb-40 wow fadeInUp">
+                <div className="footer-widget contact-info-widget mb-40">
                   <h4 className="widget-title">Get In Touch</h4>
                   <div className="widget-content">
                     <ul className="info-list">
@@ -74,7 +74,7 @@ const Footer3 = () => {
               </div>
               <div className="col-lg-2 col-md-6 col-sm-12">
                 {/*====== Footer Widget ======*/}
-                <div className="footer-widget footer-nav-widget mb-40 wow fadeInDown">
+                <div className="footer-widget footer-nav-widget mb-40">
                   <h4 className="widget-title">Quick Link</h4>
                   <div className="widget-content">
                     <ul className="footer-nav">
@@ -96,7 +96,7 @@ const Footer3 = () => {
               </div>
               <div className="col-lg-3 col-md-6 col-sm-6">
                 {/*====== Footer Widget ======*/}
-                <div className="footer-widget footer-gallery-widget float-lg-right mb-40 wow fadeInUp">
+                <div className="footer-widget footer-gallery-widget float-lg-right mb-40">
                   <h4 className="widget-title">Gallery</h4>
                   <div className="widget-content">
                     <ul className="gallery-list">
