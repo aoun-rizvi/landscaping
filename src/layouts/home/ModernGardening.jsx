@@ -7,7 +7,7 @@ const ModernGardening = () => {
         <div className="row align-items-xl-end">
           <div className="col-lg-6">
             {/*====== Features Image Box ======*/}
-            <div className="features-image-box mb-50 wow fadeInLeft">
+            <div className="features-image-box mb-50">
               <img
                 src="assets/images/features/features-10.png"
                 alt="Features Image"
@@ -16,7 +16,7 @@ const ModernGardening = () => {
           </div>
           <div className="col-lg-6">
             {/*====== Features Content Box ======*/}
-            <div className="features-content-box mb-50 wow fadeInRight">
+            <div className="features-content-box mb-50">
               <div className="section-title mb-20">
                 <span className="sub-title">
                   <i className="flaticon-plant" />
