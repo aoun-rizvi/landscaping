@@ -24,7 +24,7 @@ const About = () => {
                     </span>
                     <h2>Gardening - The Result Of Nature</h2>
                   </div>
-                  <p className="mb-40 wow fadeInDown">
+                  <p className="mb-40">
                     Sed ut perspiciatis unde omnis iste natus voluptatem
                     accusantiue doloremque laudantium totam rem aperiam, eaque
                     ipsa quae abilloy inventore
