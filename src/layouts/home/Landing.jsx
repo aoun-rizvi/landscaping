@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from 'next/image';
 
 const Landing = () => {
   return (
@@ -7,17 +8,29 @@ const Landing = () => {
       <div className="hero-wrapper-one gray-bg">
         <div className="shape shape-one animate-float-y">
         <span>
-            <img src="assets/images/hero/shape-1.png" alt="shape" />
+            <Image
+              alt="" src={"/assets/images/hero/shape-1.png"}
+              style={{ width: '100%', height: 'auto' }}
+              width={500} height={500}
+            />
         </span>
         </div>
         <div className="shape shape-two animate-float-x">
-        <span>1
-            <img src="assets/images/hero/shape-2.png" alt="shape" />
+        <span>
+            <Image
+              alt="" src={"/assets/images/hero/shape-2.png"}
+              style={{ width: '100%', height: 'auto' }}
+              width={500} height={500}
+            />
         </span>
         </div>
         <div className="shape shape-three animate-float-x">
         <span>
-            <img src="assets/images/hero/shape-3.png" alt="shape" />
+            <Image
+              alt="" src={"/assets/images/hero/shape-3.png"}
+              style={{ width: '100%', height: 'auto' }}
+              width={500} height={500}
+            />
         </span>
         </div>
         <div className="container">
@@ -44,9 +57,13 @@ const Landing = () => {
               <div className="col-xl-6 col-lg-12">
               {/*=== Hero Image Box ===*/}
               <div className="hero-image-box d-xl-block d-none">
-                <img
-                  src="assets/images/hero/hero-three_one.jpg"
-                  alt="Hero Image"
+                <Image
+                  alt="Hero Image" src={"/assets/images/hero/hero-three_one.jpg"}
+                  style={{ width: '100%', height: 'auto', }}
+                  width={500} height={550}
+                  loading="eager"
+                  quality={100}
+                  priority={true}
                 />
                 <div className="shape hero-svg">
                   <svg
