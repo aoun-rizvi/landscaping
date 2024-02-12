@@ -24,7 +24,11 @@ const About = () => {
                   {/*=== Section Title ===*/}
                   <div className="section-title mb-25">
                     <span className="sub-title">
-                      <i className="flaticon-plant" />
+                      <Image
+                        alt="About Gardening" src={"/assets/images/gardening/8-29.png"}
+                        style={{ margin: '0rem 0.5rem 0rem 0rem' }}
+                        width={50} height={50}
+                      />
                       About Gardening
                     </span>
                     <h2>Gardening - The Result Of Nature</h2>

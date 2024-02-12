@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from 'next/image';
 
 const Service = () => {
   return (
@@ -8,7 +9,11 @@ const Service = () => {
           <div className="col-lg-10">
             <div className="section-title text-center mb-100">
               <span className="sub-title">
-                <i className="flaticon-plant" />
+                <Image
+                  alt="Services" src={"/assets/images/gardening/8-29.png"}
+                  style={{ margin: '0rem 0.5rem 0rem 0rem' }}
+                  width={50} height={50}
+                />
                 Services
               </span>
               <h2>We Care Your Garden &amp; Landscape</h2>
@@ -19,7 +24,11 @@ const Service = () => {
           <div className="col-xl-3 col-lg-4 col-md-6">
             <div className="single-service-item-two mb-80">
               <div className="icon">
-                <i className="flaticon-scissors" />
+                <Image
+                  alt="Services" src={"/assets/images/gardening/8-22.png"}
+                  style={{ margin: '0rem 0.5rem 0rem 0rem' }}
+                  width={50} height={50}
+                />
               </div>
               <div className="text">
                 <h4 className="title">
@@ -39,7 +48,11 @@ const Service = () => {
           <div className="col-xl-3 col-lg-4 col-md-6">
             <div className="single-service-item-two mb-80">
               <div className="icon">
-                <i className="flaticon-watering" />
+                <Image
+                  alt="Services" src={"/assets/images/gardening/8-19.png"}
+                  style={{ margin: '0rem 0.5rem 0rem 0rem' }}
+                  width={50} height={50}
+                />
               </div>
               <div className="text">
                 <h4 className="title">
@@ -59,7 +72,11 @@ const Service = () => {
           <div className="col-xl-3 col-lg-4 col-md-6">
             <div className="single-service-item-two mb-80">
               <div className="icon">
-                <i className="flaticon-yard" />
+                <Image
+                  alt="Services" src={"/assets/images/gardening/8-05.png"}
+                  style={{ margin: '0rem 0.5rem 0rem 0rem' }}
+                  width={50} height={50}
+                />
               </div>
               <div className="text">
                 <h4 className="title">
@@ -79,7 +96,11 @@ const Service = () => {
           <div className="col-xl-3 col-lg-4 col-md-6">
             <div className="single-service-item-two mb-80">
               <div className="icon">
-                <i className="flaticon-growing" />
+                <Image
+                  alt="Services" src={"/assets/images/gardening/8-25.png"}
+                  style={{ margin: '0rem 0.5rem 0rem 0rem' }}
+                  width={50} height={50}
+                />
               </div>
               <div className="text">
                 <h4 className="title">

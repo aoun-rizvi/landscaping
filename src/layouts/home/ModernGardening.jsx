@@ -21,7 +21,11 @@ const ModernGardening = () => {
             <div className="features-content-box mb-50">
               <div className="section-title mb-20">
                 <span className="sub-title">
-                  <i className="flaticon-plant" />
+                <Image
+                  alt="Modern Gardening" src={"/assets/images/gardening/8-29.png"}
+                  style={{ margin: '0rem 0.5rem 0rem 0rem' }}
+                  width={50} height={50}
+                />
                   Modern Gardening
                 </span>
                 <h2>We Offers Landscape &amp; Tree Plantations</h2>

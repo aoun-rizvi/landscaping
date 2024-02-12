@@ -9,7 +9,11 @@ const Team = () => {
           <div className="col-lg-8">
             <div className="section-title text-center mb-50">
               <span className="sub-title">
-                <i className="flaticon-plant" />
+                <Image
+                  alt="Team Member" src={"/assets/images/gardening/8-29.png"}
+                  style={{ margin: '0rem 0.5rem 0rem 0rem' }}
+                  width={50} height={50}
+                />
                 Team Member
               </span>
               <h2>Meet Our Expert Gardeners</h2>

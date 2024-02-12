@@ -43,7 +43,10 @@ const Features = () => {
               <div className="single-features-item-two mb-40">
                 <div className="text">
                   <div className="icon">
-                    <i className="fl-icon flaticon-watering-plants" />
+                    <Image
+                      alt="Water can 1" src={"/assets/images/gardening/8-02.png"}
+                      width={50} height={50}
+                    />
                     <a href="#" className="icon-btn">
                       <i className="fal fa-long-arrow-right" />
                     </a>
@@ -57,7 +60,10 @@ const Features = () => {
               <div className="single-features-item-two mb-40">
                 <div className="text">
                   <div className="icon">
-                    <i className="fl-icon flaticon-watering-plants" />
+                    <Image
+                      alt="Water can 2" src={"/assets/images/gardening/8-02.png"}
+                      width={50} height={50}
+                    />
                     <a href="#" className="icon-btn">
                       <i className="fal fa-long-arrow-right" />
                     </a>
@@ -71,7 +77,10 @@ const Features = () => {
               <div className="single-features-item-two mb-40">
                 <div className="text">
                   <div className="icon">
-                    <i className="fl-icon flaticon-watering-plants" />
+                    <Image
+                      alt="Water can 3" src={"/assets/images/gardening/8-02.png"}
+                      width={50} height={50}
+                    />
                     <a href="#" className="icon-btn">
                       <i className="fal fa-long-arrow-right" />
                     </a>
