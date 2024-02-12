@@ -44,7 +44,7 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                 </Link>
               </div>
               {/*=== Nav Search ===*/}
-              <div className="nav-search mb-30 d-block d-xl-none ">
+              {/* <div className="nav-search mb-30 d-block d-xl-none ">
                 <form onSubmit={(e) => e.preventDefault()}>
                   <div className="form_group">
                     <input
@@ -59,7 +59,7 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                     </button>
                   </div>
                 </form>
-              </div>
+              </div> */}
               {/*====== main Menu ======*/}
               <nav className="main-menu">
                 <ul>

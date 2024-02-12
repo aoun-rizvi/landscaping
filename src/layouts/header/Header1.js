@@ -10,13 +10,13 @@ const Header1 = () => {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-  const [searchModal, setSearchModal] = useState(false);
+  // const [searchModal, setSearchModal] = useState(false);
   return (
     <Fragment>
-      <SearchModal
+      {/* <SearchModal
         show={searchModal}
         handleClose={() => setSearchModal(false)}
-      />
+      /> */}
       <header className="header-area header-one transparent-header">
         <div className="container-fluid">
           {/*====== Header Top Bar ======*/}
@@ -98,7 +98,7 @@ const Header1 = () => {
                   </Link>
                 </div>
                 {/*=== Nav Search ===*/}
-                <div className="nav-search mb-30 d-block d-xl-none ">
+                {/* <div className="nav-search mb-30 d-block d-xl-none ">
                   <form onSubmit={(e) => e.preventDefault()}>
                     <div className="form_group">
                       <input
@@ -116,7 +116,7 @@ const Header1 = () => {
                       </button>
                     </div>
                   </form>
-                </div>
+                </div> */}
                 {/*====== main Menu ======*/}
                 <Menu />
                 {/*====== Menu Button ======*/}
