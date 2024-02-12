@@ -239,7 +239,7 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                   <a className="main-btn primary-btn">Get a Quote</a>
                 </Link>
               </div>
-              <div
+              {/* <div
                 className="bar-button"
                 data-toggle="modal"
                 data-target="#sidebar-modal"
@@ -249,7 +249,7 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                   src={barIcon ? barIcon : "assets/images/bar.png"}
                   alt="Image"
                 />
-              </div>
+              </div> */}
               <div
                 className="navbar-toggler"
                 onClick={() => setToggle(!toggle)}

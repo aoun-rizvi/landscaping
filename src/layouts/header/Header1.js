@@ -133,7 +133,7 @@ const Header1 = () => {
                     <a className="main-btn primary-btn">Get a Quote</a>
                   </Link>
                 </div>
-                <div
+                {/* <div
                   className="bar-button"
                   data-toggle="modal"
                   data-target="#sidebar-modal"
@@ -147,7 +147,7 @@ const Header1 = () => {
                     quality={100}
                     priority={true}
                   />
-                </div>
+                </div> */}
                 <div className="navbar-toggler">
                   <span />
                   <span />
