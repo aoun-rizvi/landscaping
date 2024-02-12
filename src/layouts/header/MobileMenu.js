@@ -64,37 +64,10 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
               <nav className="main-menu">
                 <ul>
                   <li className="menu-item has-children">
-                    <a href="#">
-                      Home
-                      <span
-                        className="dd-trigger"
-                        onClick={() => active("home")}
-                      >
-                        <i className="far fa-angle-down" />
-                      </span>
-                    </a>
-                    <ul className="sub-menu" style={activeSubMenu("home")}>
-                      <li>
-                        <Link legacyBehavior href="/">
-                          Home 01
-                        </Link>
-                      </li>
-                      <li>
-                        <Link legacyBehavior href="index-2">
-                          Home 02
-                        </Link>
-                      </li>
-                      <li>
-                        <Link legacyBehavior href="index-3">
-                          Home 03
-                        </Link>
-                      </li>
-                    </ul>
+                    <Link href="/">Home</Link>
                   </li>
                   <li className="menu-item">
-                    <Link legacyBehavior href="about">
-                      About
-                    </Link>
+                    <Link href="/about">About</Link>
                   </li>
                   <li className="menu-item has-children">
                     <a href="#">
@@ -152,7 +125,7 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                       </li>
                     </ul>
                   </li>
-                  <li className="menu-item has-children">
+                  {/* <li className="menu-item has-children">
                     <a href="#">
                       Blog
                       <span
@@ -174,7 +147,7 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                         </Link>
                       </li>
                     </ul>
-                  </li>
+                  </li> */}
                   <li className="menu-item has-children">
                     <a href="#">
                       Pages
